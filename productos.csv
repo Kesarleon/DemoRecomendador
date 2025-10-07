@@ -1,0 +1,21 @@
+producto_id,nombre,categoria,material,precio,estilo,ocasion,temporada,oferta_mes
+1,Pulsera de Charms de Oro,Pulseras,Oro,1348.44,Vintage,Trabajo,Primavera,True
+2,Brazalete Rígido de Plata,Pulseras,Plata,1065.14,Minimalista,Trabajo,Otoño,True
+3,Dormilonas de Brillantes de Oro,Pendientes,Oro,717.98,Bohemio,Diario,Continuo,False
+4,Sello de Oro de Oro,Anillos,Oro,351.45,Vintage,Fiesta,Otoño,False
+5,Broche Vintage de Platino,Broches,Platino,311.74,Bohemio,Trabajo,Verano,True
+6,Earcuff Moderno de Oro Rosa,Pendientes,Oro Rosa,1461.21,Minimalista,Gala,Primavera,True
+7,Anillo Eternidad de Acero,Anillos,Acero,490.52,Moderno,Gala,Otoño,False
+8,Prendedor de Platino de Acero,Broches,Acero,566.24,Minimalista,Fiesta,Invierno,False
+9,Earcuff Moderno de Platino,Pendientes,Platino,672.24,Moderno,Fiesta,Verano,True
+10,Alfiler de Corbata de Acero,Broches,Acero,530.15,Clásico,Gala,Verano,False
+11,Gargantilla de Diamantes de Oro,Collares,Oro,182.51,Minimalista,Boda,Invierno,False
+12,Cadena Fina de Oro,Collares,Oro,245.53,Vintage,Trabajo,Continuo,False
+13,Anillo Solitario de Oro,Anillos,Oro,246.8,Minimalista,Diario,Invierno,True
+14,Sello de Oro de Acero,Anillos,Acero,878.46,Vintage,Gala,Primavera,True
+15,Cadena Fina de Acero,Collares,Acero,893.21,Minimalista,Boda,Continuo,True
+16,Esclava de Plata de Plata,Pulseras,Plata,772.09,Vintage,Gala,Otoño,True
+17,Earcuff Moderno de Plata,Pendientes,Plata,1357.59,Clásico,Fiesta,Primavera,True
+18,Collar Largo de Acero,Collares,Acero,1220.88,Moderno,Fiesta,Verano,True
+19,Anillo Fino de Oro Rosa,Anillos,Oro Rosa,699.74,Moderno,Boda,Continuo,False
+20,Sello de Oro de Acero,Anillos,Acero,327.72,Vintage,Trabajo,Otoño,True
