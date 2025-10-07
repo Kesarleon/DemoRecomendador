@@ -14,39 +14,39 @@ st.set_page_config(
 # --- Custom CSS for Ambéa Branding ---
 st.markdown("""
 <style>
-    /* Main color scheme */
+    /* New Jade-based color scheme with high contrast */
     .stApp {
-        background-color: #FDF5E6; /* Beige */
+        background-color: #F0FDF4; /* Pale Jade Green */
     }
 
-    /* Sidebar styling */
-    .css-1d391kg {
-        background-color: #FFD700; /* Gold */
+    /* Sidebar styling using a more robust selector */
+    [data-testid="stSidebar"] {
+        background-color: #A7D7C5; /* Light Jade */
     }
 
     /* Button styling */
     .stButton>button {
-        background-color: #FFC107; /* Amber */
+        background-color: #00A97F; /* Jade Green */
         color: #FFFFFF;
         border-radius: 8px;
         border: none;
         padding: 10px 20px;
     }
     .stButton>button:hover {
-        background-color: #FFA000; /* Darker Amber */
+        background-color: #007D60; /* Darker Jade */
         color: #FFFFFF;
     }
 
     /* Text and Titles */
     h1, h2, h3 {
-        color: #D2691E; /* Honey/Chocolate */
+        color: #2F4858; /* Charcoal for high contrast */
         font-family: 'Helvetica Neue', sans-serif;
     }
 
     /* Recommendation cards */
     .recommendation-card {
         background-color: #FFFFFF;
-        border: 1px solid #FFD700; /* Gold border */
+        border: 1px solid #00A97F; /* Jade Green border */
         border-radius: 10px;
         padding: 15px;
         margin: 10px 0;
