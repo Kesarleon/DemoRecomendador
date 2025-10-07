@@ -1,46 +1,26 @@
-# Ambéa: Demo de Recomendador de Joyas en Streamlit
+# Ambéa: Demo de Recomendador de Joyas Personalizado
 
-Esta es una aplicación de demostración interactiva construida con Streamlit que presenta un sistema de recomendación de joyas personalizado para la marca ficticia Ambéa.
+Este proyecto es una demostración interactiva de un sistema de recomendación de joyas para la marca **Ambéa**, construido con Streamlit.
 
-La aplicación genera recomendaciones para un cliente basándose en su perfil, la temporada actual y las ofertas del mes.
+## ¿Qué hace este tablero?
 
-## Cómo Desplegar en Streamlit Cloud
+El tablero simula una experiencia de cliente personalizada en la que un usuario puede introducir su ID de cliente para recibir recomendaciones de joyas a medida. El objetivo es mostrar cómo Ambéa puede aprovechar los datos para ofrecer una experiencia de compra única y relevante.
 
-Sigue estos pasos para desplegar esta aplicación en tu propia cuenta de Streamlit Cloud.
+### Características Principales
 
-### Prerrequisitos
-1.  **Una cuenta de GitHub:** Necesitarás una para alojar los archivos del proyecto.
-2.  **Archivos del proyecto:** Asegúrate de tener los siguientes archivos en tu repositorio:
-    - `app.py` (el código principal de la aplicación)
-    - `clientes.csv` (el dataset de clientes)
-    - `productos.csv` (el dataset de productos)
-    - `requirements.txt` (las dependencias de Python)
+*   **Recomendaciones Personalizadas**: El motor de recomendación analiza el perfil de cada cliente, incluyendo su estilo preferido (`Clásico`, `Moderno`, `Vintage`, etc.) y su material favorito (`Oro`, `Plata`, etc.).
+*   **Análisis de Contexto**: Las recomendaciones no solo se basan en el perfil del cliente, sino que también consideran factores contextuales como:
+    *   La **temporada actual** (Primavera, Verano, Otoño, Invierno).
+    *   **Ofertas especiales** del mes.
+*   **Interfaz Interactiva**: Los usuarios pueden introducir un ID de cliente (del 1 al 10 para esta demo) y obtener al instante una nueva serie de recomendaciones.
+*   **Explicaciones Transparentes**: Junto a las recomendaciones, la aplicación proporciona una breve explicación de por qué se sugirieron esas piezas específicas, aumentando la confianza del cliente.
 
-### Pasos para el Despliegue
+## ¿Cómo funciona?
 
-**Paso 1: Sube tu proyecto a un repositorio de GitHub**
+La aplicación utiliza un **modelo de recomendación basado en contenido**. Calcula un "puntaje de afinidad" para cada joya del catálogo en función de:
 
-1.  Crea un nuevo repositorio en tu cuenta de GitHub.
-2.  Sube los cuatro archivos (`app.py`, `clientes.csv`, `productos.csv`, `requirements.txt`) a este repositorio.
+1.  La similitud entre los atributos del producto (estilo, material) y las preferencias del cliente.
+2.  La relevancia del producto para la temporada actual y si está en oferta.
+3.  Un ligero factor de aleatoriedad para añadir variedad y descubrimiento.
 
-**Paso 2: Conéctate a Streamlit Cloud**
-
-1.  Ve a [share.streamlit.io](https://share.streamlit.io) y regístrate o inicia sesión. Puedes usar tu cuenta de GitHub para una autenticación más sencilla.
-2.  Autoriza a Streamlit para que pueda acceder a tus repositorios de GitHub.
-
-**Paso 3: Crea una nueva aplicación**
-
-1.  En tu panel de control de Streamlit Cloud, haz clic en el botón **"New app"**.
-2.  Selecciona la opción **"From repo"**.
-3.  En el campo **"Repository"**, elige el repositorio de GitHub donde subiste los archivos del proyecto.
-4.  Asegúrate de que la **"Branch"** (rama) sea la correcta (normalmente `main` o `master`).
-5.  El **"Main file path"** (ruta del archivo principal) debe ser `app.py`. Streamlit normalmente lo detecta automáticamente.
-6.  Dale un nombre personalizado a tu URL de la aplicación si lo deseas.
-
-**Paso 4: Despliega la aplicación**
-
-1.  Haz clic en el botón **"Deploy!"**.
-2.  Streamlit comenzará el proceso de despliegue. Instalará las dependencias listadas en `requirements.txt` y ejecutará la aplicación.
-3.  ¡Listo! Una vez que termine el proceso, tu aplicación estará en vivo y accesible a través de la URL proporcionada.
-
-Ahora tienes una demo funcional del recomendador de joyas Ambéa desplegada en la nube.
+Este tablero es un prototipo funcional que ilustra el potencial de la personalización para mejorar la interacción con el cliente e impulsar las ventas en Ambéa.
