@@ -1,10 +1,10 @@
-# Ambéa: Demo de Recomendador de Joyas Personalizado
+# Rosa Oliva: Demo de Recomendador de Joyas Personalizado
 
-Este proyecto es una demostración interactiva de un sistema de recomendación de joyas para la marca **Ambéa**, construido con Streamlit.
+Este proyecto es una demostración interactiva de un sistema de recomendación de joyas para la marca **Rosa Oliva**, construido con Streamlit.
 
 ## ¿Qué hace este tablero?
 
-El tablero simula una experiencia de cliente personalizada en la que un usuario puede introducir su ID de cliente para recibir recomendaciones de joyas a medida. El objetivo es mostrar cómo Ambéa puede aprovechar los datos para ofrecer una experiencia de compra única y relevante.
+El tablero simula una experiencia de cliente personalizada en la que un usuario puede introducir su ID de cliente para recibir recomendaciones de joyas a medida. El objetivo es mostrar cómo Rosa Oliva puede aprovechar los datos para ofrecer una experiencia de compra única y relevante.
 
 ### Características Principales
 
@@ -23,4 +23,4 @@ La aplicación utiliza un **modelo de recomendación basado en contenido**. Calc
 2.  La relevancia del producto para la temporada actual y si está en oferta.
 3.  Un ligero factor de aleatoriedad para añadir variedad y descubrimiento.
 
-Este tablero es un prototipo funcional que ilustra el potencial de la personalización para mejorar la interacción con el cliente e impulsar las ventas en Ambéa.
+Este tablero es un prototipo funcional que ilustra el potencial de la personalización para mejorar la interacción con el cliente e impulsar las ventas en Rosa Oliva.

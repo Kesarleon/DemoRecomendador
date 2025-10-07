@@ -6,7 +6,7 @@ import random
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Ambéa Recommender",
+    page_title="Rosa Oliva Recommender",
     page_icon="💎",
     layout="wide",
 )
@@ -43,14 +43,9 @@ st.markdown("""
         font-family: 'Helvetica Neue', sans-serif;
     }
 
-    /* Recommendation cards with Gold border */
-    .recommendation-card {
-        background-color: #FFFFFF;
-        border: 1px solid #B8860B; /* Dark Goldenrod (Gold) */
-        border-radius: 10px;
-        padding: 15px;
-        margin: 10px 0;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /* Improve contrast for success messages */
+    div[data-testid="stNotification"][kind="success"] p {
+        color: white;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -133,7 +128,7 @@ def recommend(cliente_id, clientes_df, productos_df, top_n=3):
     return recommended_df, explanation
 
 # --- Streamlit UI ---
-st.title("💎 Ambéa: Recomendador de Joyas")
+st.title("💎 Rosa Oliva: Recomendador de Joyas")
 st.write("Una demo interactiva de recomendaciones personalizadas.")
 
 # --- Sidebar ---
@@ -168,18 +163,14 @@ if get_recs_button and clientes_df is not None:
         st.info(explanation)
 
         # Display recommendations in cards
-        cols = st.columns(len(recommended_products))
-        for i, (_, producto) in enumerate(recommended_products.iterrows()):
-            with cols[i]:
-                st.markdown(f'<div class="recommendation-card">', unsafe_allow_html=True)
-                # Placeholder for image - using a simple emoji
-                st.header(f"💎")
-                st.markdown(f"**{producto['nombre']}**")
-                st.write(f"_{producto['categoria']}_ | **Estilo:** {producto['estilo']}")
-                st.write(f"**Precio:** ${producto['precio']:.2f}")
-                if producto['oferta_mes']:
-                    st.success("🔥 ¡En oferta este mes!")
-                st.markdown('</div>', unsafe_allow_html=True)
+        for _, producto in recommended_products.iterrows():
+            st.header("💎")
+            st.markdown(f"**{producto['nombre']}**")
+            st.write(f"_{producto['categoria']}_ | **Estilo:** {producto['estilo']}")
+            st.write(f"**Precio:** ${producto['precio']:.2f}")
+            if producto['oferta_mes']:
+                st.success("🔥 ¡En oferta este mes!")
+            st.markdown("---")
     else:
         st.warning("No se pudieron generar recomendaciones. Verifica los datos.")
 
