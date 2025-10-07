@@ -53,13 +53,18 @@ st.markdown("""
 # --- Data Loading ---
 @st.cache_data
 def load_data():
-    """Loads customer and product data from CSV files."""
+    """Loads customer and product data from CSV files using robust, absolute paths."""
     try:
-        clientes_df = pd.read_csv('clientes.csv')
-        productos_df = pd.read_csv('productos.csv')
+        # Get the absolute path of the directory where the script is located
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        clientes_path = os.path.join(script_dir, "clientes.csv")
+        productos_path = os.path.join(script_dir, "productos.csv")
+
+        clientes_df = pd.read_csv(clientes_path)
+        productos_df = pd.read_csv(productos_path)
         return clientes_df, productos_df
-    except FileNotFoundError:
-        st.error("Error: The data files (clientes.csv, productos.csv) were not found.")
+    except FileNotFoundError as e:
+        st.error(f"Error: A data file was not found. Please ensure 'clientes.csv' and 'productos.csv' are in the same directory as the app.\n\nDetails: {e}")
         return None, None
 
 clientes_df, productos_df = load_data()
