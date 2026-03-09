@@ -1,0 +1,41 @@
+producto_id,nombre,categoria,material,precio,estilo,ocasion,temporada,oferta_mes,valoracion,descripcion
+1,Sello de Oro de Platino,Anillos,Platino,1445.64,Bohemio,Boda,Primavera,True,4.2,Sello llamativo en platino con acabado artesanal estilo bohemio
+2,Pendientes Colgantes de Platino,Pendientes,Platino,185.64,Clásico,Fiesta,Invierno,False,4.5,Pendientes colgantes elegantes en platino para ocasiones especiales
+3,Brazalete Rígido de Oro,Pulseras,Oro,808.42,Minimalista,Gala,Primavera,False,4.7,Brazalete rígido de líneas puras en oro amarillo de 18 quilates
+4,Esclava de Plata de Acero,Pulseras,Acero,42.22,Vintage,Diario,Verano,False,3.8,Pulsera esclava ligera y resistente en acero para el día a día
+5,Colgante de Corazón de Oro,Collares,Oro,1441.32,Minimalista,Boda,Verano,True,4.9,Colgante corazón en oro sólido ideal como regalo de boda
+6,Alfiler de Corbata de Acero,Broches,Acero,206.34,Minimalista,Diario,Invierno,True,4.0,Alfiler de corbata funcional y moderno en acero inoxidable
+7,Pulsera de Cuero de Acero,Pulseras,Acero,1246.78,Minimalista,Diario,Primavera,True,3.6,Pulsera de cuero genuino con cierre de acero de diseño industrial
+8,Broche Libélula de Oro,Broches,Oro,193.45,Vintage,Trabajo,Invierno,False,4.3,Broche libélula detallado en oro accesorio vintage para el trabajo
+9,Collar de Perlas de Platino,Collares,Platino,362.93,Minimalista,Fiesta,Invierno,True,4.6,Collar de perlas cultivadas engarzadas en platino de alta pureza
+10,Colgante de Corazón de Oro Rosa,Collares,Oro Rosa,1328.12,Bohemio,Gala,Continuo,False,4.4,Colgante corazón romántico en oro rosa perfecta para galas
+11,Sello de Oro de Acero,Anillos,Acero,1458.12,Clásico,Fiesta,Verano,False,3.9,Sello clásico de diseño robusto combinando acero y acabado dorado
+12,Cadena Fina de Acero,Collares,Acero,995.99,Vintage,Boda,Otoño,True,4.1,Cadena fina de eslabones vintage en acero inoxidable sin níquel
+13,Perlas Clásicas de Oro,Pendientes,Oro,972.89,Clásico,Trabajo,Primavera,True,4.8,Pendientes de perlas clásicas montadas en oro elegancia intemporal
+14,Pulsera de Charms de Platino,Pulseras,Platino,1103.15,Vintage,Fiesta,Continuo,True,4.5,Pulsera de charms coleccionables en platino única y personalizable
+15,Broche Libélula de Plata,Broches,Plata,194.48,Vintage,Gala,Continuo,False,4.2,Broche libélula en plata de ley con alas texturizadas artesanalmente
+16,Colgante de Corazón de Acero,Collares,Acero,80.78,Vintage,Gala,Primavera,True,3.7,Colgante corazón grabado en acero opción accesible con carácter
+17,Prendedor de Platino de Oro Rosa,Broches,Oro Rosa,1485.51,Clásico,Boda,Verano,True,4.6,Prendedor lujoso en platino y oro rosa destacado accesorio de boda
+18,Pendientes Colgantes de Oro,Pendientes,Oro,1145.38,Moderno,Gala,Verano,False,4.7,Pendientes colgantes de geometría moderna en oro de 18 quilates
+19,Sello de Oro de Oro Rosa,Anillos,Oro Rosa,270.73,Bohemio,Trabajo,Verano,True,4.0,Sello bohemio en oro rosa con grabado floral hecho a mano
+20,Sello de Oro de Platino,Anillos,Platino,721.29,Minimalista,Boda,Otoño,False,4.3,Anillo sello minimalista en platino perfecto para compromiso
+21,Aro Fino Dorado,Pendientes,Oro,89.9,Minimalista,Diario,Continuo,False,4.4,Pendientes aro fino en oro de 14 quilates versatilidad cotidiana
+22,Anillo Banda Platino,Anillos,Platino,395.0,Clásico,Boda,Continuo,True,4.8,Banda clásica en platino macizo alianza de boda atemporal
+23,Collar Gargantilla Plata,Collares,Plata,65.5,Moderno,Diario,Continuo,False,3.9,Gargantilla ajustada en plata de ley para look urbano moderno
+24,Pulsera Tenis Oro Rosa,Pulseras,Oro Rosa,520.0,Clásico,Gala,Invierno,True,4.9,Pulsera tenis con circonitas engastadas en oro rosa brillo total
+25,Broche Mariposa Plata,Broches,Plata,78.0,Bohemio,Trabajo,Primavera,False,4.1,Broche mariposa artesanal en plata oxidada con efecto envejecido
+26,Pendientes Botón Acero,Pendientes,Acero,29.99,Moderno,Diario,Continuo,True,3.5,Pendientes botón minimalistas en acero quirúrgico hipoalergénicos
+27,Collar Cadena Gruesa Oro,Collares,Oro,780.0,Moderno,Fiesta,Verano,False,4.6,Collar cadena gruesa tipo curb en oro amarillo tendencia urbana
+28,Anillo Apilable Oro Rosa,Anillos,Oro Rosa,110.0,Minimalista,Diario,Continuo,True,4.3,Anillo apilable delicado en oro rosa lleva varios a la vez
+29,Pulsera Cordón Plata,Pulseras,Plata,55.0,Bohemio,Diario,Verano,False,3.8,Pulsera cordón trenzado con cierre de plata espíritu bohemio
+30,Broche Geométrico Platino,Broches,Platino,890.0,Moderno,Gala,Otoño,True,4.5,Broche geométrico de vanguardia en platino pulido pieza de autor
+31,Pendientes Chandelier Plata,Pendientes,Plata,145.0,Vintage,Fiesta,Otoño,False,4.2,Pendientes chandelier con capas en plata de ley drama festivo
+32,Anillo Sello Acero Grabado,Anillos,Acero,75.0,Moderno,Trabajo,Continuo,True,3.6,Anillo sello en acero con grabado láser personalizable
+33,Collar Medallón Oro,Collares,Oro,430.0,Vintage,Ocasional,Otoño,False,4.4,Collar medallón redondo en oro con motivo grabado vintage
+34,Pulsera Esclava Platino,Pulseras,Platino,1250.0,Clásico,Gala,Invierno,True,4.7,Pulsera esclava en platino pulido joya de lujo para galas
+35,Broche Flor Oro Rosa,Broches,Oro Rosa,265.0,Bohemio,Trabajo,Primavera,False,4.0,Broche floral en oro rosa con pétalos articulados único
+36,Pendientes Perla Plata,Pendientes,Plata,98.0,Clásico,Trabajo,Continuo,True,4.5,Pendientes de perla de agua dulce en montura de plata clásica
+37,Anillo Granate Oro Rosa,Anillos,Oro Rosa,340.0,Vintage,Fiesta,Otoño,False,4.3,Anillo con piedra granate en montura de oro rosa estilo victoriano
+38,Collar Choker Terciopelo Oro,Collares,Oro,195.0,Bohemio,Fiesta,Invierno,True,3.9,Choker de terciopelo negro con cierre dorado estética bohemia oscura
+39,Pulsera Rígida Acero Texturado,Pulseras,Acero,88.0,Moderno,Diario,Continuo,False,3.7,Pulsera rígida en acero con textura martillada diseño industrial
+40,Broche Estrella Plata,Broches,Plata,120.0,Minimalista,Diario,Invierno,True,4.1,Broche estrella de cinco puntas en plata pulida elegancia sutil

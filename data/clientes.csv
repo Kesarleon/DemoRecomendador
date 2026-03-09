@@ -1,0 +1,26 @@
+cliente_id,nombre,edad,estilo_preferido,material_favorito,frecuencia_compra,fecha_ultima_compra,valor_promedio_compra
+1,Rufina,29,Vintage,Oro,Ocasional,2025-03-28,79.05
+2,Candelas,65,Minimalista,Platino,Bimestral,2024-11-24,297.06
+3,Atilio,41,Vintage,Oro Rosa,Semanal,2025-02-19,207.95
+4,Iker,63,Moderno,Oro Rosa,Semanal,2025-08-10,227.52
+5,Marta,50,Vintage,Plata,Mensual,2025-06-02,253.52
+6,Perla,24,Moderno,Oro Rosa,Ocasional,2025-04-07,71.15
+7,Curro,56,Clásico,Platino,Bimestral,2024-12-23,449.57
+8,Manu,58,Clásico,Acero,Mensual,2025-03-14,442.11
+9,Chuy,20,Vintage,Platino,Semanal,2025-04-10,169.90
+10,Tristán,47,Bohemio,Oro,Ocasional,2025-03-29,298.01
+11,Valentina,33,Minimalista,Oro,Mensual,2025-01-15,185.50
+12,Rodrigo,45,Clásico,Plata,Bimestral,2024-10-08,320.75
+13,Esperanza,28,Bohemio,Oro Rosa,Semanal,2025-02-27,145.30
+14,Fermín,72,Clásico,Platino,Anual,2024-06-18,580.00
+15,Nieves,38,Minimalista,Acero,Mensual,2025-03-05,98.40
+16,Sebastián,22,Moderno,Acero,Ocasional,2025-04-22,55.80
+17,Lola,54,Bohemio,Plata,Bimestral,2025-01-30,215.60
+18,Gonzalo,31,Vintage,Oro,Semanal,2025-03-11,130.25
+19,Amparo,67,Clásico,Oro,Anual,2024-09-03,560.90
+20,Darío,19,Moderno,Acero,Ocasional,2025-04-01,49.99
+21,Rocío,43,Bohemio,Oro Rosa,Mensual,2025-02-14,270.00
+22,Héctor,36,Vintage,Plata,Semanal,2025-03-20,112.80
+23,Inmaculada,60,Minimalista,Platino,Bimestral,2024-12-01,395.45
+24,Tomás,25,Moderno,Oro Rosa,Mensual,2025-04-18,160.70
+25,Adelaida,48,Bohemio,Oro,Ocasional,2025-03-09,340.00
